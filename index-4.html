@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Four || Trevlo || HTML Template For Tours & Travel</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description"
+        content="Trevlo is a modern HTML Template for Beauty, Spa Centers, Hair, Nail, Spa Salons & Cosmetic shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses." />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/vendors/trevlo-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/trevlo-one-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/daterangepicker-master/daterangepicker.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/trevlo.css" />
+    <link rel="stylesheet" href="assets/css/color-1.css" />
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=qA5lhyWRdb6HC1atMk1Ux73Nw8M5R9Bwv3iClWe2rYM9ZeKXzbRF7HpOs4-z7V96a-3fB9lIUVv0O7C3M0G9jh-Bd69K1GDhbWG4UW0CLmU"
+        charset="UTF-8"></script>
+</head>
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader-2.png);"></div>
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header main-header--four sticky-header sticky-header--normal sticky-header--four">
+
+            <!-- /.topbar-two -->
+            <div class="container">
+                <div class="main-header__inner">
+                    <div class="main-header__logo">
+                        <a >
+                            <img src="data:image/jpeg;base64,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" alt="Trevlo HTML" width="187">
+                        </a>
+                    </div><!-- /.main-header__logo -->
+                    <div class="main-header__right">
+                        <nav class="main-header__nav main-menu">
+                            <ul class="main-menu__list">
+
+
+
+
+                                <li>
+                                    <a>Home</a>
+                                </li>
+
+                                <li>
+                                    <a>About</a>
+                                </li>
+                                <li>
+                                    <a>Tour</a>
+                                </li>
+                                <li>
+                                    <a>Contact us</a>
+                                </li>
+                            </ul>
+                        </nav><!-- /.main-header__nav -->
+                        <!-- <div class="mobile-nav__btn mobile-nav__toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div> -->
+                   
+                       
+                        <div class="main-header__phone">
+                            <div class="main-header__phone-icon">
+                                <span class="trevlo-one-icon-telephone"></span>
+                            </div>
+                            <div class="main-header__phone-text">
+                                <p class="main-header__phone-title">Call Anytime</p>
+                                <h4 class="main-header__phone-number"><a >+00000000</a>
+                                </h4>
+                            </div>
+                        </div><!-- /.main-header__phone -->
+                    </div><!-- /.main-header__right -->
+                </div><!-- /.main-header__inner -->
+            </div><!-- /.container-fluid -->
+            <img src="assets/images/shapes/main-header-shape-4-1.png" alt="shape" class="main-header__shape">
+        </header><!-- /.main-header -->
+
+        <!-- main-slider-start -->
+        <section class="main-slider-four">
+            <div class="main-slider-four__carousel trevlo-owl__carousel owl-carousel owl-theme" data-owl-options='{
+		"items": 1,
+		"margin": 0,
+		"loop": true,
+		"smartSpeed": 700,
+		"animateOut": "fadeOut",
+		"autoplayTimeout": 5000, 
+		"nav": true,
+		"navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+		"dots": false,
+		"autoplay": true
+		}'>
+                <div class="item">
+                    <div class="main-slider-four__image"
+                        style="background-image: url(assets/images/backgrounds/slider-4-1.jpg);"></div>
+                    <div class="container">
+                        <div class="main-slider-four__row row gutter-y-50 align-items-center">
+                            <div class="col-xl-9 col-lg-8">
+                                <div class="main-slider-four__content">
+                                    <h5 class="main-slider-four__sub-title">Plan to Travel Everywhere</h5>
+                                    <h3 class="main-slider-four__title">Let’s plan your <br> trip with us</h3>
+                                    <p class="main-slider-four__text">There are many variations of passages of Lorem
+                                        Ipsum
+                                        available, but the majority have suffered alteration in some form, by injected
+                                        humour,
+                                        or randomised words which</p><!-- /.main-slider-four__text -->
+                                </div>
+                            </div><!-- /.col-xl-9 col-lg-4 -->
+                            <div class="col-xl-3 col-lg-4">
+                             
+                                <!-- /.main-slider-four__video -->
+                            </div><!-- /.col-xl-3 col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div><!-- item -->
+                <div class="item">
+                    <div class="main-slider-four__image"
+                        style="background-image: url(assets/images/backgrounds/slider-4-2.jpg);"></div>
+                    <div class="container">
+                        <div class="main-slider-four__row row gutter-y-50 align-items-center">
+                            <div class="col-xl-9 col-lg-8">
+                                <div class="main-slider-four__content">
+                                    <h5 class="main-slider-four__sub-title">Plan to Travel Everywhere</h5>
+                                    <h3 class="main-slider-four__title">Experience the tour <br> with trevlo Company
+                                    </h3>
+                                    <p class="main-slider-four__text">i just want to shoot some alligators. Wheelhouse
+                                        after I ran into Helen at a restaurant, I realized she was just office pretty,
+                                        nor going forward, so do i have consent to record</p>
+                                    <!-- /.main-slider-four__text -->
+                                </div>
+                            </div><!-- /.col-xl-9 col-lg-4 -->
+                            <div class="col-xl-3 col-lg-4">
+                              <!-- /.main-slider-four__video -->
+                            </div><!-- /.col-xl-3 col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div><!-- item -->
+                <div class="item">
+                    <div class="main-slider-four__image"
+                        style="background-image: url(assets/images/backgrounds/slider-4-3.jpg);"></div>
+                    <div class="container">
+                        <div class="main-slider-four__row row gutter-y-50 align-items-center">
+                            <div class="col-xl-9 col-lg-8">
+                                <div class="main-slider-four__content">
+                                    <h5 class="main-slider-four__sub-title">Plan to Travel Everywhere</h5>
+                                    <h3 class="main-slider-four__title">Most Favourite <br> Tour Place</h3>
+                                    <p class="main-slider-four__text">Products need full resourcing and support from a
+                                        cross-functional team in order to be built, maintained, and evolved iâ€™ve been
+                                        doing some research this morning</p><!-- /.main-slider-four__text -->
+                                </div>
+                            </div><!-- /.col-xl-9 col-lg-4 -->
+                            <div class="col-xl-3 col-lg-4">
+                                <!-- /.main-slider-four__video -->
+                            </div><!-- /.col-xl-3 col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div><!-- item -->
+            </div><!-- banner-slider -->
+            <div class="banner-form banner-form--two @@extraClassName wow fadeInUp" data-wow-delay="300ms">
+                <div class="container">
+                    <form class="banner-form__wrapper" action="tour-listing-top-search.html">
+                        <div class="row">
+                            <div class="banner-form__col banner-form__col--1">
+                                <div class="banner-form__control banner-form__control--location">
+                                    <div class="banner-form__icon">
+                                        <span class="trevlo-one-icon-location"></span>
+                                    </div><!-- /.banner-form__icon -->
+                                    <label for="location">Location</label>
+                                    <select name="location" class="selectpicker" id="location">
+                                        <option value="select">Australia</option>
+                                        <option value="spain">Spain</option>
+                                        <option value="africa">Africa</option>
+                                        <option value="europe">Europe</option>
+                                        <option value="thailand">Thailand</option>
+                                        <option value="dubai">Dubai</option>
+                                        <option value="swizerlan">Swizerlan</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="banner-form__col banner-form__col--2">
+                                <div class="banner-form__control banner-form__control--type">
+                                    <div class="banner-form__icon">
+                                        <span class="trevlo-one-icon-bag"></span>
+                                    </div><!-- /.banner-form__icon -->
+                                    <label for="type">Activities Type</label>
+                                    <select name="type" class="selectpicker" id="type">
+                                        <option value="select">Adventure</option>
+                                        <option value="africa">Beach</option>
+                                        <option value="europe">Discovery</option>
+                                        <option value="thailand">Mountain</option>
+                                        <option value="dubai">Hills</option>
+                                        <option value="australia">Couple</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="banner-form__col banner-form__col--3">
+                                <div class="banner-form__control">
+                                    <div class="banner-form__icon">
+                                        <span class="trevlo-one-icon-clock"></span>
+                                    </div><!-- /.banner-form__icon -->
+                                    <label for="date">Activate Day</label>
+                                    <input class="trevlo-multi-datepicker" id="date" type="text" name="date"
+                                        placeholder="Select Date">
+                                    <span class="trevlo-one-icon-chevron-down banner-form__datepicker-icon"></span>
+                                </div>
+                            </div>
+                            <div class="banner-form__col banner-form__col--4">
+                                <div class="banner-form__control banner-form__control--traveler">
+                                    <div class="banner-form__icon">
+                                        <span class="trevlo-one-icon-people"></span>
+                                    </div><!-- /.banner-form__icon -->
+                                    <label for="guests">Traveler</label>
+                                    <button class="banner-form__qty-minus sub">
+                                        <i class="trevlo-one-icon-chevron-up"></i>
+                                    </button>
+                                    <input id="guests" type="number" value="2" name="guests" placeholder="2">
+                                    <button class="banner-form__qty-plus add">
+                                        <i class="trevlo-one-icon-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="banner-form__col banner-form__col--5">
+                                <button type="submit" aria-label="search submit" class="trevlo-btn trevlo-btn--base">
+                                    <span>Search</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- banner-form -->
+        </section>
+        <!-- main-slider-end -->
+
+        <!-- Destination Start -->
+        <section class="destination-four section-space">
+            <div class="container">
+                <div class="destination-four__top">
+                    <div class="row gutter-y-40">
+                        <div class="col-lg-9">
+                            <div class="sec-title sec-title--two text-left">
+
+                                <p class="sec-title__tagline">Our Destination</p><!-- /.sec-title__tagline -->
+
+                                <h2 class="sec-title__title">Trendy Travel Locations</h2><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <!-- /.sec-title -->
+                        </div><!-- /.col-lg-9 -->
+                        <div class="col-lg-3">
+                            <div class="destination-four__custom-navs"></div><!-- /.destination-four__custom-navs -->
+                        </div><!-- /.col-lg-3 -->
+                    </div><!-- /.row -->
+                </div><!-- /.destination-four__top -->
+                <div class="destination-four__carousel trevlo-owl__carousel owl-theme owl-carousel" data-owl-options='{
+            "items": 3,
+            "margin": 30,
+            "smartSpeed": 700,
+            "loop":true,
+            "autoplay": 6000,
+            "navContainer": ".destination-four__custom-navs",
+            "nav":true,
+            "dots":false,
+            "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+            "responsive":{
+                "0":{
+                    "items": 1
+                },
+                "768":{
+                    "items": 2
+                },
+                "1200":{
+                    "items": 3
+                }
+            }
+            }'>
+                    <div class="item">
+                        <div class="destination-four__card wow fadeInUp" data-wow-duration="1500ms"
+                            data-wow-delay="00ms"
+                            style="background-image: url(assets/images/destination/destination-4-1.jpg);">
+                            <div class="destination-four__card__content">
+                                <ul class="destination-four__card__list">
+                                    <li>5 Tour+</li>
+                                    <li>1 Hotel</li>
+                                    <li>2 Activity</li>
+                                </ul><!-- /.destination-four__card__list -->
+                                <div class="destination-four__card__destination">
+                                    <h3 class="destination-four__card__name"><a
+                                            >Paris,
+                                            France</a></h3><!-- /.destination-four__card__name -->
+                                </div><!-- /.destination-four__card__destination -->
+                            </div><!-- /.destination-four__card__content -->
+                        </div><!-- /.destination-four__card -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="destination-four__card wow fadeInUp" data-wow-duration="1500ms"
+                            data-wow-delay="100ms"
+                            style="background-image: url(assets/images/destination/destination-4-2.jpg);">
+                            <div class="destination-four__card__content">
+                                <ul class="destination-four__card__list">
+                                    <li>8 Tour+</li>
+                                    <li>1 Hotel</li>
+                                    <li>7 Activity</li>
+                                </ul><!-- /.destination-four__card__list -->
+                                <div class="destination-four__card__destination">
+                                    <h3 class="destination-four__card__name"><a
+                                            >Rome,
+                                            Italy</a></h3><!-- /.destination-four__card__name -->
+                                </div><!-- /.destination-four__card__destination -->
+                            </div><!-- /.destination-four__card -->
+                        </div><!-- /.destination-four__card__content -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="destination-four__card wow fadeInUp" data-wow-duration="1500ms"
+                            data-wow-delay="200ms"
+                            style="background-image: url(assets/images/destination/destination-4-3.jpg);">
+                            <div class="destination-four__card__content">
+                                <ul class="destination-four__card__list">
+                                    <li>9 Tour+</li>
+                                    <li>1 Hotel</li>
+                                    <li>4 Activity</li>
+                                </ul><!-- /.destination-four__card__list -->
+                                <div class="destination-four__card__destination">
+                                    <h3 class="destination-four__card__name"><a
+                                            >Tokyo,
+                                            Japan</a></h3><!-- /.destination-four__card__name -->
+                                </div><!-- /.destination-four__card__destination -->
+                            </div><!-- /.destination-four__card -->
+                        </div><!-- /.destination-four__card__content -->
+                    </div><!-- /.item -->
+                </div><!-- /.destination-four__carousel -->
+            </div><!-- /.container -->
+            <div class="destination-four__shape-box">
+                <img src="assets/images/shapes/destination-shape-4-1.png" alt="shape"
+                    class="destination-four__shape-one">
+                <img src="assets/images/shapes/destination-shape-4-2.png" alt="shape"
+                    class="destination-four__shape-two">
+            </div><!-- /.destination-four__shape-box -->
+        </section>
+        <!-- Destination End -->
+
+        <section class="about-five section-space">
+            <div class="container">
+                <div class="row gutter-y-50">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
+                        <div class="about-five__image">
+                            <div class="about-five__image__one">
+                                <div class="about-five__image__one__inner">
+                                    <img src="assets/images/about/about-5-1.jpg" alt="about image">
+                                </div><!-- /.about-five__image__one__inner -->
+                            </div><!-- /.about-five__image__one -->
+                            <div class="about-five__image__two">
+                                <div class="about-five__image__two__inner">
+                                    <img src="assets/images/about/about-5-2.jpg" alt="about image">
+                                </div><!-- /.about-five__image__two__inner -->
+                                <div class="about-five__experience">
+                                    <img src="assets/images/resources/about-icon-5-1.png" alt="about icon"
+                                        class="about-five__experience__icon">
+                                    <h4 class="about-five__experience__year">25+</h4>
+                                    <!-- /.about-five__experience__year -->
+                                    <h4 class="about-five__experience__title">Years Experience</h4>
+                                    <!-- /.about-five__experience__title -->
+                                </div><!-- /.about-five__experience -->
+                            </div><!-- /.about-five__image__two -->
+                        </div><!-- /.about-five__image -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6 wow fadeInRight" data-wow-duration="1500ms">
+                        <div class="about-five__content">
+                            <div class="sec-title sec-title--two text-left">
+
+                                <p class="sec-title__tagline">About Us</p><!-- /.sec-title__tagline -->
+
+                                <h2 class="sec-title__title">Experience the World <br> with Our trevio Company</h2>
+                                <!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <!-- /.sec-title -->
+                            <p class="about-five__text">It is a long established fact that a reader will be distracted
+                                the
+                                readable content of a page when looking at layout the point of using lorem the is Ipsum
+                                less
+                                normal distribution of letters.</p><!-- /.about-five__text -->
+                            <ul class="about-five__list">
+                                <li>
+                                    <i class="trevlo-one-icon-check-2"></i>
+                                    Easy & Quick Booking
+                                </li>
+                                <li>
+                                    <i class="trevlo-one-icon-check-2"></i>
+                                    Safety first always
+                                </li>
+                                <li>
+                                    <i class="trevlo-one-icon-check-2"></i>
+                                    Best Price Guarantee
+                                </li>
+                                <li>
+                                    <i class="trevlo-one-icon-check-2"></i>
+                                    save your money
+                                </li>
+                                <li>
+                                    <i class="trevlo-one-icon-check-2"></i>
+                                    Best Tour Selection
+                                </li>
+                                <li>
+                                    <i class="trevlo-one-icon-check-2"></i>
+                                    Low price & friendly
+                                </li>
+                            </ul><!-- /.about-five__list -->
+                            <div class="about-five__bottom">
+                                <a 
+                                    class="trevlo-btn trevlo-btn--two trevlo-btn--base">
+                                    <span>Start Booking</span>
+                                    <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a><!-- /.trevlo-btn -->
+                                <div class="about-five__phone">
+                                    <div class="about-five__phone__icon">
+                                        <span class="trevlo-one-icon-telephone"></span>
+                                    </div>
+                                    <div class="about-five__phone__text">
+                                        <p class="about-five__phone__title">Call Us Now</p>
+                                        <h4 class="about-five__phone__number"><a
+                                                >+3354553533</a></h4>
+                                    </div>
+                                </div><!-- /.about-five__phone -->
+                            </div><!-- /.about-five__bottom -->
+                        </div><!-- /.about-five__content -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+            <div class="about-five__shape-box">
+                <img src="assets/images/shapes/about-sun-5-1.png" alt="sun" class="about-five__sun">
+                <img src="assets/images/shapes/about-parashoot-5-1.png" alt="parashoot" class="about-five__parashoot">
+                <img src="assets/images/shapes/about-shape-5-1.png" alt="lamp" class="about-five__shape">
+            </div><!-- /.about-five__shape-box -->
+        </section><!-- /.about-five section-space -->
+
+        <section class="tour-listing-four section-space">
+            <div class="container">
+                <div class="tour-listing-four__top">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="sec-title sec-title--two text-left">
+
+                                <p class="sec-title__tagline">festered tours</p><!-- /.sec-title__tagline -->
+
+                                <h2 class="sec-title__title">Most Favourite Tour Place</h2><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                        </div><!-- /.col-lg-8 -->
+                        <div class="col-lg-4">
+                            <div class="tour-listing-four__button">
+                                <a class="trevlo-btn trevlo-btn--border">
+                                    <span>view all place</span>
+                                    <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a><!-- /.trevlo-btn -->
+                            </div><!-- /.tour-listing-four__button -->
+                        </div><!-- /.col-lg-4 -->
+                    </div><!-- /.row -->
+                </div><!-- /.tour-listing-four__top -->
+                <div class="tour-listing-four__inner">
+                    <div class="tour-listing-four__row">
+                        <div class="tour-listing-four__content tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="00ms">
+                            <div class="tour-listing-four__ratings">
+                                <div class="trevlo-ratings">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                                <p class="tour-listing-four__ratings__text">4.9 (5)</p>
+                                <!-- /.tour-listing-four__ratings__text -->
+                            </div><!-- /.tour-listing-four__ratings -->
+                            <h3 class="tour-listing-four__title"><a >Over Turkish
+                                    Waves</a>
+                            </h3><!-- /.tour-listing-four__title -->
+                            <p class="tour-listing-four__text">There are many variations of passages of Lorem
+                                Ipsum available, but the majority have suffere</p><!-- /.tour-listing-four__text -->
+                        </div><!-- /.tour-listing-four__content -->
+                        <ul class="tour-listing-four__list tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="100ms">
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-multiple-users-silhouette"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Min Age <span>15+</span>
+                            </li>
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-paper-plane"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Tour Type <span>Adventure. Fun</span>
+                            </li>
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-maps-and-flags"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Location <span>Main Street Brooklyn, NY</span>
+                            </li>
+                        </ul><!-- /.tour-listing-four__list -->
+                        <div class="tour-listing-four__image tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="200ms">
+                            <div class="tour-listing-four__image__inner"
+                                style="background-image: url(assets/images/tours/tour-6-1.jpg);">
+                                <div class="tour-listing-four__image__left">
+                                    <h3 class="tour-listing-four__image__title">form</h3>
+                                    <!-- /.tour-listing-four__image__title -->
+                                    <h3 class="tour-listing-four__image__price">$169</h3>
+                                    <!-- /.tour-listing-four__image__price -->
+                                </div><!-- /.tour-listing-four__image__left -->
+                                <a 
+                                    class="tour-listing-four__image__btn trevlo-btn trevlo-btn--white">
+                                    <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a><!-- /.tour-listing-four__image__btn -->
+                            </div><!-- /.tour-listing-four__image__inner -->
+                        </div><!-- /.tour-listing-four__image -->
+                    </div><!-- /.tour-listing-four__row -->
+                    <div class="tour-listing-four__row">
+                        <div class="tour-listing-four__content tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="00ms">
+                            <div class="tour-listing-four__ratings">
+                                <div class="trevlo-ratings">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                                <p class="tour-listing-four__ratings__text">4.9 (5)</p>
+                                <!-- /.tour-listing-four__ratings__text -->
+                            </div><!-- /.tour-listing-four__ratings -->
+                            <h3 class="tour-listing-four__title"><a >Beach Bliss
+                                    Exploration</a>
+                            </h3><!-- /.tour-listing-four__title -->
+                            <p class="tour-listing-four__text">Travel agency Company also impressed us with their
+                                transpa regarding costs the initial</p><!-- /.tour-listing-four__text -->
+                        </div><!-- /.tour-listing-four__content -->
+                        <ul class="tour-listing-four__list tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="100ms">
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-multiple-users-silhouette"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Min Age <span>15+</span>
+                            </li>
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-paper-plane"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Tour Type <span>Adventure. Fun</span>
+                            </li>
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-maps-and-flags"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Location <span>6391 Elgin St. Celina</span>
+                            </li>
+                        </ul><!-- /.tour-listing-four__list -->
+                        <div class="tour-listing-four__image tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="200ms">
+                            <div class="tour-listing-four__image__inner"
+                                style="background-image: url(assets/images/tours/tour-6-2.jpg);">
+                                <div class="tour-listing-four__image__left">
+                                    <h3 class="tour-listing-four__image__title">form</h3>
+                                    <!-- /.tour-listing-four__image__title -->
+                                    <h3 class="tour-listing-four__image__price">$199</h3>
+                                    <!-- /.tour-listing-four__image__price -->
+                                </div><!-- /.tour-listing-four__image__left -->
+                                <a 
+                                    class="tour-listing-four__image__btn trevlo-btn trevlo-btn--white">
+                                    <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a><!-- /.tour-listing-four__image__btn -->
+                            </div><!-- /.tour-listing-four__image__inner -->
+                        </div><!-- /.tour-listing-four__image -->
+                    </div><!-- /.tour-listing-four__row -->
+                    <div class="tour-listing-four__row">
+                        <div class="tour-listing-four__content tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="00ms">
+                            <div class="tour-listing-four__ratings">
+                                <div class="trevlo-ratings">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                                <p class="tour-listing-four__ratings__text">4.9 (5)</p>
+                                <!-- /.tour-listing-four__ratings__text -->
+                            </div><!-- /.tour-listing-four__ratings -->
+                            <h3 class="tour-listing-four__title"><a >US Skyline
+                                    Adventure</a>
+                            </h3><!-- /.tour-listing-four__title -->
+                            <p class="tour-listing-four__text">Flexible Classes refers to the process of acquiring is
+                                knowledge free or skills through</p><!-- /.tour-listing-four__text -->
+                        </div><!-- /.tour-listing-four__content -->
+                        <ul class="tour-listing-four__list tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="100ms">
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-multiple-users-silhouette"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Min Age <span>15+</span>
+                            </li>
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-paper-plane"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Tour Type <span>Adventure. Fun</span>
+                            </li>
+                            <li>
+                                <div class="tour-listing-four__list__icon">
+                                    <i class="trevlo-one-icon-maps-and-flags"></i>
+                                </div><!-- /.tour-listing-four__list__icon -->
+                                Location <span>New York. USA</span>
+                            </li>
+                        </ul><!-- /.tour-listing-four__list -->
+                        <div class="tour-listing-four__image tour-listing-four__col wow fadeInUp"
+                            data-wow-duration="1500ms" data-wow-delay="200ms">
+                            <div class="tour-listing-four__image__inner"
+                                style="background-image: url(assets/images/tours/tour-6-3.jpg);">
+                                <div class="tour-listing-four__image__left">
+                                    <h3 class="tour-listing-four__image__title">form</h3>
+                                    <!-- /.tour-listing-four__image__title -->
+                                    <h3 class="tour-listing-four__image__price">$130</h3>
+                                    <!-- /.tour-listing-four__image__price -->
+                                </div><!-- /.tour-listing-four__image__left -->
+                                <a 
+                                    class="tour-listing-four__image__btn trevlo-btn trevlo-btn--white">
+                                    <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a><!-- /.tour-listing-four__image__btn -->
+                            </div><!-- /.tour-listing-four__image__inner -->
+                        </div><!-- /.tour-listing-four__image -->
+                    </div><!-- /.tour-listing-four__row -->
+                </div><!-- /.tour-listing-four__inner -->
+            </div><!-- /.container -->
+            <img src="assets/images/resources/tour-listing-img-4-1.png" alt="girl"
+                class="tour-listing-four__left-image">
+            <img src="assets/images/resources/tour-listing-airplane-4-1.png" alt="airplane"
+                class="tour-listing-four__airplane">
+        </section><!-- /.tour-listing-four section-space -->
+
+        <section class="why-choose-four">
+            <div class="why-choose-four__bg" style="background-image: url(assets/images/shapes/why-choose-bg-4-1.png);">
+            </div>
+            <!-- /.why-choose-four__bg -->
+            <div class="container">
+                <div class="row gutter-y-50">
+                    <div class="col-lg-6">
+                        <div class="why-choose-four__image"
+                            style="background-image: url(assets/images/why-choose/why-choose-4-1.jpg);">
+                            <div class="why-choose-four__author">
+                                <div class="why-choose-four__author__image">
+                                    <img src="assets/images/resources/author-1.png" alt="author">
+                                    <img src="assets/images/resources/author-2.png" alt="author">
+                                    <img src="assets/images/resources/author-3.png" alt="author">
+                                    <img src="assets/images/resources/author-4.png" alt="author">
+                                </div><!-- /.why-choose-four__author__image -->
+                                <div class="why-choose-four__author__text">
+                                    <h3 class="why-choose-four__author__total">38K +</h3>
+                                    <!-- /.why-choose-four__author__total -->
+                                    <h3 class="why-choose-four__author__title">Satisfied Customers</h3>
+                                    <!-- /.why-choose-four__author__title -->
+                                </div><!-- /.why-choose-four__author__text -->
+                            </div><!-- /.why-choose-four__author -->
+                        </div><!-- /.why-choose-four__image -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="why-choose-four__content">
+                            <div class="sec-title sec-title--two text-left">
+
+                                <p class="sec-title__tagline">get to know us</p><!-- /.sec-title__tagline -->
+
+                                <h2 class="sec-title__title">Why You Should Choose <br> Our Company</h2>
+                                <!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                            <div class="why-choose-four__text-box wow fadeInUp" data-wow-duration="1500ms">
+                                <p class="why-choose-four__text">There are many variations of passages of Lorem Ipsum
+                                    available,
+                                    but the majority have suffered alteradution in some form by injected humour, or
+                                    randomised
+                                    words which</p><!-- /.why-choose-four__text -->
+                            </div><!-- /.why-choose-four__text-box -->
+                            <div class="why-choose-four__inner">
+                                <div class="why-choose-four__item wow fadeInUp" data-wow-duration="1500ms">
+                                    <div class="why-choose-four__item__left">
+                                        <div class="why-choose-four__item__icon">
+                                            <span class="trevlo-one-icon-check"></span>
+                                        </div><!-- /.why-choose-four__item__icon -->
+                                        <h3 class="why-choose-four__item__title">fast & easy process</h3>
+                                        <!-- /.why-choose-four__item__title -->
+                                    </div><!-- /.why-choose-four__item__left -->
+                                    <div class="why-choose-four__item__right">
+                                        <p class="why-choose-four__item__text">Travel agency Company also impressed us
+                                            with their transpa regarding</p><!-- /.why-choose-four__item__text -->
+                                    </div><!-- /.why-choose-four__item__right -->
+                                </div><!-- /.why-choose-four__item -->
+                                <div class="why-choose-four__item wow fadeInUp" data-wow-duration="1500ms">
+                                    <div class="why-choose-four__item__left">
+                                        <div class="why-choose-four__item__icon">
+                                            <span class="trevlo-one-icon-check"></span>
+                                        </div><!-- /.why-choose-four__item__icon -->
+                                        <h3 class="why-choose-four__item__title">save your money</h3>
+                                        <!-- /.why-choose-four__item__title -->
+                                    </div><!-- /.why-choose-four__item__left -->
+                                    <div class="why-choose-four__item__right">
+                                        <p class="why-choose-four__item__text">Flexible Classes refers to the process of
+                                            acquiring is knowledge free</p><!-- /.why-choose-four__item__text -->
+                                    </div><!-- /.why-choose-four__item__right -->
+                                </div><!-- /.why-choose-four__item -->
+                            </div><!-- /.why-choose-four__inner -->
+                        </div><!-- /.why-choose-four__content -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row gutter-y-40 -->
+            </div><!-- /.container -->
+            <img src="assets/images/why-choose/why-choose-4-2.png" alt="why-choose"
+                class="why-choose-four__right-image">
+        </section><!-- /.why-choose-four -->
+
+        <section class="offer-two section-space">
+            <div class="container">
+                <div class="offer-two__inner"
+                    style="background-image: url(assets/images/backgrounds/offer-bg-2-1.jpg);">
+                    <div class="offer-two__inner__row row">
+                        <div class="col-lg-7">
+                            <div class="offer-two__content">
+                                <div class="sec-title sec-title--two text-left">
+
+                                    <p class="sec-title__tagline">special offer</p><!-- /.sec-title__tagline -->
+
+                                    <h2 class="sec-title__title">grab Up To 50% Off On <br> Your Favourite <br>
+                                        Destination</h2><!-- /.sec-title__title -->
+                                </div><!-- /.sec-title -->
+                                <a 
+                                    class="trevlo-btn trevlo-btn--two trevlo-btn--base">
+                                    <span>Book now</span>
+                                    <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a><!-- /.trevlo-btn -->
+                            </div><!-- /.offer-two__content -->
+                        </div><!-- /.col-lg-7 -->
+                    </div><!-- /.row -->
+                    <img src="assets/images/offer/offer-2-1.png" alt="offer" class="offer-two__image">
+                    <img src="assets/images/shapes/offer-border-2-1.png" alt="border" class="offer-two__border-one">
+                    <img src="assets/images/shapes/offer-border-2-2.png" alt="border" class="offer-two__border-two">
+                </div><!-- /.offer-two__inner -->
+            </div><!-- /.container -->
+        </section><!-- /.offer-two section-space -->
+
+        <section class="gallery-instagram-one">
+            <div class="container-fluid">
+                <div class="gallery-instagram-one__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav owl-carousel"
+                    data-owl-options='{
+			"loop": true,
+			"items": 5,
+			"autoplay": true,
+			"smartSpeed": 600,
+			"nav": false,
+			"navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+			"dots": true,
+			"margin": 30,
+			"responsive": {
+				"0": {
+					"items": 1
+				},
+				"500": {
+					"items": 2
+				},
+				"768": {
+					"items": 3
+				},
+				"1200": {
+					"items": 4
+				},
+				"1400": {
+					"items": 5,
+                    "dots": false
+				}
+			}
+			}'>
+                    <div class="item">
+                        <div class="gallery-instagram-one__image gallery-instagram-one__image--circle">
+                            <img src="assets/images/gallery/gallery-instagram-1-1.png" alt="instagram">
+                            <a  class="gallery-instagram-one__image__link">
+                                <i class="trevlo-one-icon-instagram"></i>
+                            </a><!-- /.gallery-instagram-one__image__link -->
+                        </div><!-- /.gallery-instagram-one__image -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="gallery-instagram-one__image gallery-instagram-one__image--square">
+                            <img src="assets/images/gallery/gallery-instagram-1-2.png" alt="instagram">
+                            <a  class="gallery-instagram-one__image__link">
+                                <i class="trevlo-one-icon-instagram"></i>
+                            </a><!-- /.gallery-instagram-one__image__link -->
+                        </div><!-- /.gallery-instagram-one__image -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="gallery-instagram-one__image gallery-instagram-one__image--circle">
+                            <img src="assets/images/gallery/gallery-instagram-1-3.png" alt="instagram">
+                            <a  class="gallery-instagram-one__image__link">
+                                <i class="trevlo-one-icon-instagram"></i>
+                            </a><!-- /.gallery-instagram-one__image__link -->
+                        </div><!-- /.gallery-instagram-one__image -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="gallery-instagram-one__image gallery-instagram-one__image--square">
+                            <img src="assets/images/gallery/gallery-instagram-1-4.png" alt="instagram">
+                            <a  class="gallery-instagram-one__image__link">
+                                <i class="trevlo-one-icon-instagram"></i>
+                            </a><!-- /.gallery-instagram-one__image__link -->
+                        </div><!-- /.gallery-instagram-one__image -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="gallery-instagram-one__image gallery-instagram-one__image--circle">
+                            <img src="assets/images/gallery/gallery-instagram-1-5.png" alt="instagram">
+                            <a  class="gallery-instagram-one__image__link">
+                                <i class="trevlo-one-icon-instagram"></i>
+                            </a><!-- /.gallery-instagram-one__image__link -->
+                        </div><!-- /.gallery-instagram-one__image -->
+                    </div><!-- /.item -->
+                </div><!-- /.gallery-instagram-one__carousel -->
+            </div><!-- /.container-fluid -->
+        </section><!-- /.gallery-instagram-one -->
+
+        <section class="testimonial-three section-space-bottom">
+            <div class="testimonial-three__bg"
+                style="background-image: url(assets/images/shapes/testimonial-bg-3-1.png);">
+            </div><!-- /.testimonial-three__bg -->
+            <div class="container">
+                <div class="sec-title sec-title--two text-center">
+
+                    <p class="sec-title__tagline">our testimonials</p><!-- /.sec-title__tagline -->
+
+                    <h2 class="sec-title__title">what peoples say about trevlo</h2><!-- /.sec-title__title -->
+                </div><!-- /.sec-title -->
+                <!-- /.sec-title -->
+                <div class="testimonial-three__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav trevlo-owl__carousel--with-shadow owl-theme owl-carousel"
+                    data-owl-options='{
+            "items": 3,
+            "margin": 30,
+            "smartSpeed": 700,
+            "loop":true,
+            "autoplay": 6000,
+            "nav":false,
+            "dots":true,
+            "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+            "responsive":{
+                "0":{
+                    "items": 1
+                },
+                "768":{
+                    "items": 2
+                },
+                "1200":{
+                    "items": 3,
+                    "dots": false
+                }
+            }
+            }'>
+                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                        <div class="testimonials-card-three">
+                            <div class="testimonials-card-three__image">
+                                <img src="assets/images/testimonial/testimonial-3-1.jpg" alt="Guy Hawkins">
+                            </div>
+                            <div class="testimonials-card-three__inner">
+                                <div class="testimonials-card-three__quote-icon">
+                                    <span class="trevlo-one-icon-quote"></span>
+                                </div><!-- /.testimonials-card-three__quote-icon -->
+                                <div class="testimonials-card-three__identity">
+                                    <h5 class="testimonials-card-three__identity__name">Guy Hawkins</h5>
+                                    <p class="testimonials-card-three__identity__designation">managing director</p>
+                                </div><!-- /.testimonials-card-three__identity -->
+                                <p class="testimonials-card-three__quote">travel agency Company also impressed us with
+                                    their transpa regarding costs. The initial quote was</p>
+                                <!-- /.testimonials-card-three__quote -->
+                                <div class="trevlo-ratings">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div><!-- /.testimonials-card-three__inner -->
+                        </div><!-- /.testimonials-card-three -->
+                    </div><!-- /.owl-slide-item-->
+                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="testimonials-card-three">
+                            <div class="testimonials-card-three__image">
+                                <img src="assets/images/testimonial/testimonial-3-2.jpg" alt="Robert Fox">
+                            </div>
+                            <div class="testimonials-card-three__inner">
+                                <div class="testimonials-card-three__quote-icon">
+                                    <span class="trevlo-one-icon-quote"></span>
+                                </div><!-- /.testimonials-card-three__quote-icon -->
+                                <div class="testimonials-card-three__identity">
+                                    <h5 class="testimonials-card-three__identity__name">Robert Fox</h5>
+                                    <p class="testimonials-card-three__identity__designation">Tourist</p>
+                                </div><!-- /.testimonials-card-three__identity -->
+                                <p class="testimonials-card-three__quote">Flexible Classes refers to the process of
+                                    acquiring is knowledge free or skills through the use</p>
+                                <!-- /.testimonials-card-three__quote -->
+                                <div class="trevlo-ratings">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div><!-- /.testimonials-card-three__inner -->
+                        </div><!-- /.testimonials-card-three -->
+                    </div><!-- /.owl-slide-item-->
+                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                        <div class="testimonials-card-three">
+                            <div class="testimonials-card-three__image">
+                                <img src="assets/images/testimonial/testimonial-3-3.jpg" alt="Michael G. Ware">
+                            </div>
+                            <div class="testimonials-card-three__inner">
+                                <div class="testimonials-card-three__quote-icon">
+                                    <span class="trevlo-one-icon-quote"></span>
+                                </div><!-- /.testimonials-card-three__quote-icon -->
+                                <div class="testimonials-card-three__identity">
+                                    <h5 class="testimonials-card-three__identity__name">Michael G. Ware</h5>
+                                    <p class="testimonials-card-three__identity__designation">Tourist</p>
+                                </div><!-- /.testimonials-card-three__identity -->
+                                <p class="testimonials-card-three__quote">There are many variations of passages, but the
+                                    majority have suffered alteradution in some form</p>
+                                <!-- /.testimonials-card-three__quote -->
+                                <div class="trevlo-ratings">
+                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i>
+                                </div>
+                            </div><!-- /.testimonials-card-three__inner -->
+                        </div><!-- /.testimonials-card-three -->
+                    </div><!-- /.owl-slide-item-->
+                </div><!-- /.thm-owl__slider -->
+            </div><!-- /.container -->
+        </section><!-- /.testimonial-three section-space-bottom -->
+
+        <div class="blog-three section-space-top">
+            <div class="container">
+                <div class="blog-three__top">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="sec-title sec-title--two text-left">
+
+                                <p class="sec-title__tagline">our latest blog</p><!-- /.sec-title__tagline -->
+
+                                <h2 class="sec-title__title">our latest news</h2><!-- /.sec-title__title -->
+                            </div><!-- /.sec-title -->
+                        </div><!-- /.col-lg-8 -->
+                        <div class="col-lg-4">
+                            <div class="blog-three__button">
+                                <a  class="trevlo-btn trevlo-btn--border">
+                                    <span>view all blog</span>
+                                    <i class="trevlo-one-icon-up-right-arrow"></i>
+                                </a><!-- /.trevlo-btn -->
+                            </div><!-- /.blog-three__button -->
+                        </div><!-- /.col-lg-4 -->
+                    </div><!-- /.row -->
+                </div><!-- /.blog-three__top -->
+                <div class="row gutter-y-30">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                        <div class="blog-three__card blog-three__card--one">
+                            <div class="blog-three__card__image">
+                                <img src="assets/images/blog/blog-4-1.jpg" alt="blog">
+                                <div class="blog-three__card__date">
+                                    <span class="blog-three__card__date__day">25</span>
+                                    <span class="blog-three__card__date__month">june</span>
+                                </div>
+                            </div><!-- /.blog-three__card__image -->
+                            <div class="blog-three__card__content">
+                                <ul class="list-unstyled blog-three__card__meta">
+                                    <li>
+                                        <a >
+                                            <span class="blog-three__card__meta__icon">
+                                                <i class="trevlo-one-icon-user"></i>
+                                            </span>
+                                            by Admin
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a >
+                                            <span class="blog-three__card__meta__icon">
+                                                <i class="trevlo-one-icon-comment"></i>
+                                            </span>
+                                            2 Comments
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="blog-three__card__title"><a >Collaboratively
+                                        pontificate bleeding edge resources with inexpensive methodologies</a></h3>
+                                <!-- /.blog-three__card__title -->
+                            </div><!-- /.blog-three__card__content -->
+                        </div><!-- /.blog-three__card -->
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="blog-three__inner">
+                            <div class="blog-three__inner__card">
+                                <div class="blog-three__card blog-three__card--two wow fadeInUp"
+                                    data-wow-duration="1500ms" data-wow-delay="100ms">
+                                    <div class="blog-three__card__image">
+                                        <img src="assets/images/blog/blog-4-2.jpg" alt="blog">
+                                    </div><!-- /.blog-three__card__image -->
+                                    <div class="blog-three__card__content">
+                                        <ul class="list-unstyled blog-three__card__meta">
+                                            <li>
+                                                <a >
+                                                    <span class="blog-three__card__meta__icon">
+                                                        <i class="trevlo-one-icon-user"></i>
+                                                    </span>
+                                                    by Admin
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a >
+                                                    <span class="blog-three__card__meta__icon">
+                                                        <i class="trevlo-one-icon-comment"></i>
+                                                    </span>
+                                                    2 Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="blog-three__card__title"><a >Copy And
+                                                Paste From Stack Overflow Can You Put It Into</a></h3>
+                                        <!-- /.blog-three__card__title -->
+                                        <div class="blog-three__card__date">
+                                            <span class="blog-three__card__date__day">25</span>
+                                            <span class="blog-three__card__date__month">june</span>
+                                        </div>
+                                    </div><!-- /.blog-three__card__content -->
+                                </div><!-- /.blog-three__card -->
+                                <div class="blog-three__card blog-three__card--two wow fadeInUp"
+                                    data-wow-duration="1500ms" data-wow-delay="200ms">
+                                    <div class="blog-three__card__image">
+                                        <img src="assets/images/blog/blog-4-3.jpg" alt="blog">
+                                    </div><!-- /.blog-three__card__image -->
+                                    <div class="blog-three__card__content">
+                                        <ul class="list-unstyled blog-three__card__meta">
+                                            <li>
+                                                <a >
+                                                    <span class="blog-three__card__meta__icon">
+                                                        <i class="trevlo-one-icon-user"></i>
+                                                    </span>
+                                                    by Admin
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a >
+                                                    <span class="blog-three__card__meta__icon">
+                                                        <i class="trevlo-one-icon-comment"></i>
+                                                    </span>
+                                                    2 Comments
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <h3 class="blog-three__card__title"><a >Catching
+                                                And Not Too Giant, Yet Drink From The Firehose</a></h3>
+                                        <!-- /.blog-three__card__title -->
+                                        <div class="blog-three__card__date">
+                                            <span class="blog-three__card__date__day">25</span>
+                                            <span class="blog-three__card__date__month">june</span>
+                                        </div>
+                                    </div><!-- /.blog-three__card__content -->
+                                </div><!-- /.blog-three__card -->
+                            </div><!-- /.blog-three__inner__card -->
+                        </div><!-- /.blog-three__inner -->
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.blog-three section-space-top -->
+
+        <div class="client-carousel-two @@extraClassName">
+            <div class="container">
+                <div class="client-carousel-two__carousel trevlo-owl__carousel owl-theme owl-carousel" data-owl-options='{
+            "items": 5,
+            "margin": 65,
+            "smartSpeed": 700,
+            "loop":true,
+            "autoplay": 6000,
+            "nav":false,
+            "dots":false,
+            "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+            "responsive":{
+                "0":{
+                    "items":2,
+                    "margin": 50
+                },
+                "413":{
+                    "items":3,
+                    "margin": 60
+                },
+                "500":{
+                    "items":3,
+                    "margin": 80
+                },
+                "576":{
+                    "items":3,
+                    "margin": 100
+                },
+                "768":{
+                    "items":4,
+                    "margin": 100
+                },
+                "992":{
+                    "items": 5,
+                    "margin": 100
+                },
+                "1200":{
+                    "items": 5,
+                    "margin": 160
+                }
+            }
+            }'>
+                    <div class="client-carousel-two__item">
+                        <img src="assets/images/resources/brand-3-1.png" alt="trevlo"
+                            class="client-carousel-two__image">
+                        <img src="assets/images/resources/brand-3-1-hover.png" alt="trevlo"
+                            class="client-carousel-two__hover-image">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel-two__item">
+                        <img src="assets/images/resources/brand-3-2.png" alt="trevlo"
+                            class="client-carousel-two__image">
+                        <img src="assets/images/resources/brand-3-2-hover.png" alt="trevlo"
+                            class="client-carousel-two__hover-image">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel-two__item">
+                        <img src="assets/images/resources/brand-3-3.png" alt="trevlo"
+                            class="client-carousel-two__image">
+                        <img src="assets/images/resources/brand-3-3-hover.png" alt="trevlo"
+                            class="client-carousel-two__hover-image">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel-two__item">
+                        <img src="assets/images/resources/brand-3-4.png" alt="trevlo"
+                            class="client-carousel-two__image">
+                        <img src="assets/images/resources/brand-3-4-hover.png" alt="trevlo"
+                            class="client-carousel-two__hover-image">
+                    </div><!-- /.owl-slide-item-->
+                    <div class="client-carousel-two__item">
+                        <img src="assets/images/resources/brand-3-5.png" alt="trevlo"
+                            class="client-carousel-two__image">
+                        <img src="assets/images/resources/brand-3-5-hover.png" alt="trevlo"
+                            class="client-carousel-two__hover-image">
+                    </div><!-- /.owl-slide-item-->
+                </div><!-- /.thm-owl__slider -->
+            </div><!-- /.container -->
+        </div><!-- /.client-carousel-two -->
+
+        <footer class="footer-two">
+            <div class="footer-two__inner">
+                <div class="footer-two__bg" style="background-image: url(assets/images/shapes/footer-bg-2-1.png);">
+                </div>
+                <!-- /.footer-two__bg -->
+                <div class="container">
+                    <div class="footer-two__top">
+                        <div class="footer-two__top__bg"
+                            style="background-image: url(assets/images/shapes/footer-top-bg-2-1.png);"></div>
+                        <!-- /.footer-two__top__bg -->
+                        <div class="footer-two__author">
+                            <div class="footer-two__author__image">
+                                <img src="assets/images/resources/author-1.png" alt="author">
+                                <img src="assets/images/resources/author-2.png" alt="author">
+                                <img src="assets/images/resources/author-3.png" alt="author">
+                                <img src="assets/images/resources/author-4.png" alt="author">
+                            </div><!-- /.footer-two__author__image -->
+                            <div class="footer-two__author__text">
+                                <h3 class="footer-two__author__total">38K +</h3><!-- /.footer-two__author__total -->
+                                <h3 class="footer-two__author__title">Satisfied Customers</h3>
+                                <!-- /.footer-two__author__title -->
+                            </div><!-- /.footer-two__author__text -->
+                        </div><!-- /.footer-two__author -->
+                        <div class="footer-two__image"
+                            style="background-image: url(assets/images/resources/footer-image-2-1.jpg);">
+                            <a  class="trevlo-btn trevlo-btn--two trevlo-btn--white">
+                                <span>explore more</span> <i class="trevlo-one-icon-up-right-arrow"></i>
+                            </a>
+                        </div><!-- /.footer-two__image -->
+                    </div><!-- /.footer-two__top -->
+                    <div class="row gutter-y-40">
+                        <div class="col-xl-3 col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0s"
+                            data-wow-duration="1500ms">
+                            <!-- /.footer-widget -->
+                        </div><!-- /.col-xl-3 col-lg-6 col-md-5 -->
+                        <div class="col-xl-2 col-md-3 wow animated fadeInUp" data-wow-delay="0.1s"
+                            data-wow-duration="1500ms">
+                            <div class="footer-widget footer-widget--links footer-widget--links-1">
+                                <h2 class="footer-widget__title">useful links</h2><!-- /.footer-widget__title -->
+                                <ul class="footer-widget__links">
+                                    <li><a >Account</a></li>
+                                    <li><a >Tour Listings</a></li>
+                                    <li><a >Privacy Policy</a></li>
+                                    <li><a >Help</a></li>
+                                </ul><!-- /.footer-widget__links -->
+                            </div><!-- /.footer-widget -->
+                        </div><!-- /.col-xl-2 col-md-3 -->
+                        <div class="col-lg-3 col-md-4 wow animated fadeInUp" data-wow-delay="0.2s"
+                            data-wow-duration="1500ms">
+                            <div class="footer-widget footer-widget--links footer-widget--links-2">
+                                <h2 class="footer-widget__title">Company</h2><!-- /.footer-widget__title -->
+                                <ul class="footer-widget__links">
+                                    <li><a >About Us</a></li>
+                                    <li><a >Community Blog</a></li>
+                                    <li><a >Destinations</a></li>
+                                    <li><a >Meet the Guide</a></li>
+                                    <li><a >Contact Now</a></li>
+                                </ul><!-- /.footer-widget__links -->
+                            </div><!-- /.footer-widget -->
+                        </div><!-- /.col-lg-3 col-md-4 -->
+                        <div class="col-xl-4 col-lg-7 wow animated fadeInUp" data-wow-delay="0.3s"
+                            data-wow-duration="1500ms">
+                            <div class="footer-widget footer-widget--newsletter">
+                                <h2 class="footer-widget__title">Newsletter</h2><!-- /.footer-widget__title -->
+                                <p class="footer-widget__newlatter-text">There are many variations of passages of <br>
+                                    Lorem
+                                    Ipsum available</p><!-- /.footer-widget__newlatter-text -->
+                                <form action="#" data-url="MAILCHIMP_FORM_URL"
+                                    class="footer-widget__newsletter-form mc-form">
+                                    <input type="email" name="EMAIL" id="footer-widget__newsletter-input"
+                                        placeholder="Email Address" class="footer-widget__newsletter-input">
+                                    <button type="submit" class="footer-widget__newsletter-btn"><i
+                                            class="trevlo-one-icon-paper-plane"></i></button>
+                                </form><!-- /.footer-widget__newsletter-form -->
+                                <div class="mc-form__response"></div><!-- /.mc-form__response -->
+                            </div><!-- /.footer-widget -->
+                        </div><!-- /.col-xl-4 col-lg-7 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.footer-two__inner -->
+            <div class="footer-two__bottom">
+                <div class="container">
+                    <div class="row gutter-y-30 align-items-center">
+                        <div class="col-lg-3 col-md-6">
+                            
+                        </div><!-- /.col-lg-3 col-md-6 -->
+                        <div class="col-lg-6 col-md-6">
+                            <p class="footer-two__copyright">
+                                &copy; Copyright <span class="dynamic-year"></span> Kesavan.
+                            </p>
+                        </div><!-- /.col-lg-6 col-md-6 -->
+                        <div class="col-lg-3">
+                            <div class="social-links">
+                                <a >
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                                <a >
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                                <a >
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                <a >
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">Youtube</span>
+                                </a>
+
+                            </div><!-- /.social-links -->
+                        </div><!-- /.col-lg-3 -->
+                    </div><!-- /.footer-two__bottom-inner -->
+                </div><!-- /.container -->
+            </div><!-- /.footer-two__bottom -->
+        </footer><!-- /.footer-two -->
+
+    </div><!-- /.page-wrapper -->
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a  aria-label="logo image"><img src="assets/images/logo-light-3.png" width="187"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a >needhelp@trevlo.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a >(303) 555-0105</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__social">
+                <a >
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+                <a >
+                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a >
+                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                    <span class="sr-only">Pinterest</span>
+                </a>
+                <a >
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </div><!-- /.mobile-nav__social -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form role="search" method="get" class="search-popup__form" action="#">
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="search-popup__btn trevlo-btn trevlo-btn--base">
+                    <span class="icon-search"></span>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a  data-target="html" class="scroll-to-target scroll-to-top">
+        <span class="scroll-to-top__text">back top</span>
+        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
+    </a>
+
+    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owlcarousel2-filter.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/tilt/tilt.jquery.js"></script>
+    <script src="assets/vendors/simpleParallax/simpleParallax.min.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/daterangepicker-master/moment.min.js"></script>
+    <script src="assets/vendors/daterangepicker-master/daterangepicker.js"></script>
+    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+    <!-- template js -->
+    <script src="assets/js/trevlo.js"></script>
+</body>
+
+</html>
+
+<!-- client-carousel-shape-bg-2-1 -->
