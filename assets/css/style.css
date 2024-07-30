@@ -5768,7 +5768,7 @@ ol.wp-block-rss {
   border-radius: 99px;
 }
 .th-header .menu-area {
-  position: relative;
+/*   position: relative; */
   z-index: 2;
 }
 .info-card {
