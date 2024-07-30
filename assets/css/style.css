@@ -1289,7 +1289,7 @@ textarea.is-invalid {
   padding-left: 18px;
 }
 .th-mobile-menu ul li a:before {
-  content: "\f105";
+  content: "";
   font-family: var(--icon-font);
   position: absolute;
   left: 0;
