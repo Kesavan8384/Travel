@@ -5768,7 +5768,7 @@ ol.wp-block-rss {
   border-radius: 99px;
 }
 .th-header .menu-area {
-/*   position: relative; */
+  position: relative;
   z-index: 2;
 }
 .info-card {
@@ -12806,6 +12806,7 @@ span.select2-selection.select2-selection--single:focus {
 .img-box3 .img3 {
   position: relative;
   margin-top: 30px;
+  
   z-index: 3;
 }
 @media (max-width: 575px) {
@@ -19200,10 +19201,22 @@ span.select2-selection.select2-selection--single:focus {
 
 
 .menu-area{
-    background-color: #f0f0f0 !important;
+    background-color: #f0f0f0;
 }
 
 
 #categorySlide .swiper-wrapper{
     transform: none !important;
+}
+
+.img-box3 .img2 {
+  position: absolute;
+  top: 66%;
+  right: 0px;
+  left: 166px;
+}
+.img-box3 .img3 {
+  position: absolute;
+  top: 457px !important;
+
 }
