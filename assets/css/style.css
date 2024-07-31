@@ -1,4 +1,5 @@
 @use "sass:math";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";
 :root {
   --theme-color: #1ca8cb;
   --title-color: #113d48;
@@ -19201,13 +19202,13 @@ span.select2-selection.select2-selection--single:focus {
 
 
 .menu-area{
-    background-color: #f0f0f0;
+    background-color: #f0f0f0 !important;
 }
 
 
-#categorySlide .swiper-wrapper{
+/* #categorySlide .swiper-wrapper{
     transform: none !important;
-}
+} */
 
 .img-box3 .img2 {
   position: absolute;
